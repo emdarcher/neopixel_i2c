@@ -128,11 +128,13 @@ int main(void)
 	{
 		if (i2c_check_stop()) {
 inner:
+#if 0
 			if (REG_CTRL & CTRL_RST)
 				do_reset();
 			else if (REG_CTRL & CTRL_GLB)
 				set_leds_global();
 			else
+#endif
 				update_leds();
 		}
 	}
