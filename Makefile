@@ -24,7 +24,7 @@ SRC = $(TARGET).c i2c/i2c_machine.c ws2812/light_ws2812_AVR/Light_WS2812/light_w
 
 # Programming hardware: type avrdude -c ?
 # to get a full listing.
-AVRDUDE_PROGRAMMER = usbasp              # official name of 
+AVRDUDE_PROGRAMMER = usbtiny              # official name of 
 #AVRDUDE_PROGRAMMER = avrispmkII              # official name of 
 
 AVRDUDE_PORT = usb

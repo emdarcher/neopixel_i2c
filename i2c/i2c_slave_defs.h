@@ -27,7 +27,7 @@
 #define N_LEDS 5
 #define I2C_N_GLB_REG 0
 #define I2C_N_REG (I2C_N_GLB_REG + (N_LEDS * 3))
-#define I2C_SLAVE_ADDR 0x40
+#define I2C_SLAVE_ADDR 0xb0
 
 /*
  * The library supports a write mask for each individual register (bits set are
