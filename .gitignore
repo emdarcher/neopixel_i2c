@@ -3,3 +3,12 @@
 *.o
 *.obj
 *.hex
+*.ld
+*.d
+*.eep
+*.lst
+*.elf
+*.lss
+*.map
+*.sym
+
