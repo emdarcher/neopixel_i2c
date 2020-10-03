@@ -1,5 +1,6 @@
 /*
  * Copyright Brian Starkey 2014 <stark3y@gmail.com>
+ *           Ethan Durrant 2020
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of version 2 of the GNU General Public License as
@@ -27,7 +28,7 @@
 #define N_LEDS 5
 #define I2C_N_GLB_REG 0
 #define I2C_N_REG (I2C_N_GLB_REG + (N_LEDS * 3))
-#define I2C_SLAVE_ADDR 0xb0
+#define I2C_SLAVE_ADDR 0x40
 
 /*
  * The library supports a write mask for each individual register (bits set are
