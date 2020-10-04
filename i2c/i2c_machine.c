@@ -178,7 +178,8 @@ ISR(USI_OVF_vect)
 				} else {
 					/* Transition a */
 					i2c_offset = 0;
-					i2c_state = I2C_STATE_REG_ADDR;
+					//i2c_state = I2C_STATE_REG_ADDR;
+					i2c_state = I2C_STATE_MASTER_WRITE;
 					i2c_update = 1;
 				}
 				ACK();
